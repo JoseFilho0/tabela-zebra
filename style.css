@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gquatro, .zquatro {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    width: 400px;
+    border: 2px solid #000;
+}
+
+thead {
+    background-color: #000;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
